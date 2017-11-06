@@ -1,6 +1,7 @@
-git add
-git commit
-git reset --hard HEAD^
-git status
-git checkout -- filename
-git reset HEAD filename
+git add 添加到暂存区
+git commit 添加到本地分支
+git reset --hard HEAD^ 回退版本
+git reset --hard "index" 回退到某个版本(index表示索引,查找git log或者git reflog)
+git status 打印此时版本库的状态
+git checkout -- filename 回退修改(回退的是最后一次add或者commit时)
+git reset HEAD filename 把修改的文件从暂存区放回到本地仓库(通常与上以命令一起使用)
