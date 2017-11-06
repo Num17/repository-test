@@ -3,3 +3,4 @@ git commit
 git reset --hard HEAD^
 git status
 git checkout -- filename
+git reset HEAD filename
