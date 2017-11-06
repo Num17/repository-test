@@ -1,5 +1,5 @@
 git add
 git commit
-git reset --hard HEAD
+git reset --hard HEAD^
 git status
-git check out --filename
+git checkout -- filename
