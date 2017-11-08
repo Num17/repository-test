@@ -6,4 +6,3 @@ git status 打印此时版本库的状态
 git checkout -- filename 版本替换，无论文件被修改或删除都可以还原
 git reset HEAD filename 把修改的文件从暂存区放回到本地仓库(通常与上以命令一起使用)
 git rm filename 删除文件
-买零食
